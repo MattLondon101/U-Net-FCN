@@ -1,3 +1,8 @@
+'''
+Functions for data prep.
+Not to be run as module.
+'''
+
 import os
 import sys
 from natsort import natsorted,ns
