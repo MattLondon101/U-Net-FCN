@@ -9,6 +9,7 @@ Commands below are meant to be used in Linux terminal.
 
 Create environment from Conda Base environment:  
 ```
+cd U-Net_FCN
 conda create -n unetenv python==3.7
 ```  
 
