@@ -19,11 +19,10 @@ conda install pip
 ```  
 
 
-Install requirements:  
+Install requirements and unzip directories:
 ```
 python imports.py
 ```  
-
 
 
 Open Tensorboard to monitor loss and Jaccard coefficient across epochs:  
