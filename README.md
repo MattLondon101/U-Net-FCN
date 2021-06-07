@@ -30,7 +30,7 @@ Open Tensorboard to monitor loss and Jaccard coefficient across epochs:
 tensorboard --logdir=logs/scalars/ --reload_multifile True --reload_interval 5
 ```  
  
-Weight file can also be reduced by pruning model model during training with tensorflow_model_optimization.sparsity (see [Tensorflow Model Optimization Pruning](https://www.tensorflow.org/model_optimization/guide/pruning).<br />
+Weight file can also be reduced by pruning model model during training with tensorflow_model_optimization.sparsity (see [Tensorflow Model Optimization Pruning](https://www.tensorflow.org/model_optimization/guide/pruning)).<br />
 <br />    
 
 <p align="center">
