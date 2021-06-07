@@ -57,3 +57,7 @@ with zipfile.ZipFile('datadir.zip', 'r') as zip_ref:
 
 with zipfile.ZipFile('logs.zip', 'r') as zip_ref:
     zip_ref.extractall('.')
+    
+with zipfile.ZipFile('weights.zip', 'r') as zip_ref:
+    zip_ref.extractall('.')
+
