@@ -24,10 +24,24 @@ Install requirements and unzip directories:
 python imports.py
 ```  
 
+To train model run unet_train.py and follow prompts:
+```
+python uent_train.py
+```  
 
 Open Tensorboard to monitor loss and Jaccard coefficient across epochs:  
 ```
 tensorboard --logdir=logs/scalars/ --reload_multifile True --reload_interval 5
+```  
+
+To test model run test_unet.py and follow prompts:
+```
+python test_unet.py
+```  
+
+To convert h5/hdf5 to yaml for much smaller file size, yet slightly lower accuracy, run h5_to_yaml.py and follow prompts:
+```
+python h5_to_yaml.py
 ```  
  
 Weights file (.hdf5/.h5) can also be reduced by pruning model model during training with tensorflow_model_optimization.sparsity (see [Tensorflow Model Optimization Pruning](https://www.tensorflow.org/model_optimization/guide/pruning)).<br />
