@@ -24,6 +24,8 @@ Install requirements:
 python imports.py
 ```  
 
+
+
 Open Tensorboard to monitor loss and Jaccard coefficient across epochs:  
 ```
 tensorboard --logdir=logs/scalars/ --reload_multifile True --reload_interval 5
