@@ -26,7 +26,7 @@ python imports.py
 
 To train model run unet_train.py and follow prompts:
 ```
-python uent_train.py
+python unet_train.py
 ```  
 
 Open Tensorboard to monitor loss and Jaccard coefficient across epochs:  
